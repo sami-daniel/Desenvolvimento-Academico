@@ -1,0 +1,12 @@
+H:\LogP\SegundaEtapa\TrabalhoSegundaEtapa\TrabalhoSegundaEtapa\bin\Debug\TrabalhoSegundaEtapa.exe.config
+H:\LogP\SegundaEtapa\TrabalhoSegundaEtapa\TrabalhoSegundaEtapa\bin\Debug\TrabalhoSegundaEtapa.exe
+H:\LogP\SegundaEtapa\TrabalhoSegundaEtapa\TrabalhoSegundaEtapa\bin\Debug\TrabalhoSegundaEtapa.pdb
+H:\LogP\SegundaEtapa\TrabalhoSegundaEtapa\TrabalhoSegundaEtapa\obj\Debug\TrabalhoSegundaEtapa.csproj.AssemblyReference.cache
+H:\LogP\SegundaEtapa\TrabalhoSegundaEtapa\TrabalhoSegundaEtapa\obj\Debug\TrabalhoSegundaEtapa.csproj.SuggestedBindingRedirects.cache
+H:\LogP\SegundaEtapa\TrabalhoSegundaEtapa\TrabalhoSegundaEtapa\obj\Debug\TrabalhoSegundaEtapa.Properties.Resources.resources
+H:\LogP\SegundaEtapa\TrabalhoSegundaEtapa\TrabalhoSegundaEtapa\obj\Debug\TrabalhoSegundaEtapa.csproj.GenerateResource.cache
+H:\LogP\SegundaEtapa\TrabalhoSegundaEtapa\TrabalhoSegundaEtapa\obj\Debug\TrabalhoSegundaEtapa.csproj.CoreCompileInputs.cache
+H:\LogP\SegundaEtapa\TrabalhoSegundaEtapa\TrabalhoSegundaEtapa\obj\Debug\TrabalhoSegundaEtapa.exe
+H:\LogP\SegundaEtapa\TrabalhoSegundaEtapa\TrabalhoSegundaEtapa\obj\Debug\TrabalhoSegundaEtapa.pdb
+H:\LogP\SegundaEtapa\TrabalhoSegundaEtapa\TrabalhoSegundaEtapa\obj\Debug\TrabalhoSegundaEtapa.Views.Exercicio1.resources
+H:\LogP\SegundaEtapa\TrabalhoSegundaEtapa\TrabalhoSegundaEtapa\obj\Debug\TrabalhoSegundaEtapa.Form1.resources
