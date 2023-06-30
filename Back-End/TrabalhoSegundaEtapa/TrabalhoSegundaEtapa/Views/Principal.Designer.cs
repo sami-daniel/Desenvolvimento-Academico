@@ -1,6 +1,6 @@
 ﻿namespace TrabalhoSegundaEtapa
 {
-    partial class Form1
+    partial class Principal
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -31,8 +31,8 @@
             this.MenuStrip = new System.Windows.Forms.MenuStrip();
             this.atividadesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ViewExerciseOne = new System.Windows.Forms.ToolStripMenuItem();
-            this.eXERCICIO2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.eXERCICIO3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ViewExerciseTwo = new System.Windows.Forms.ToolStripMenuItem();
+            this.ViewExercise3 = new System.Windows.Forms.ToolStripMenuItem();
             this.eXERCICIO4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuStrip.SuspendLayout();
             this.SuspendLayout();
@@ -53,8 +53,8 @@
             this.atividadesToolStripMenuItem.BackColor = System.Drawing.Color.Khaki;
             this.atividadesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ViewExerciseOne,
-            this.eXERCICIO2ToolStripMenuItem,
-            this.eXERCICIO3ToolStripMenuItem,
+            this.ViewExerciseTwo,
+            this.ViewExercise3,
             this.eXERCICIO4ToolStripMenuItem});
             this.atividadesToolStripMenuItem.Name = "atividadesToolStripMenuItem";
             this.atividadesToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
@@ -67,17 +67,19 @@
             this.ViewExerciseOne.Text = "EXERCICIO 1";
             this.ViewExerciseOne.Click += new System.EventHandler(this.ViewExerciseOne_Click);
             // 
-            // eXERCICIO2ToolStripMenuItem
+            // ViewExerciseTwo
             // 
-            this.eXERCICIO2ToolStripMenuItem.Name = "eXERCICIO2ToolStripMenuItem";
-            this.eXERCICIO2ToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
-            this.eXERCICIO2ToolStripMenuItem.Text = "EXERCICIO 2";
+            this.ViewExerciseTwo.Name = "ViewExerciseTwo";
+            this.ViewExerciseTwo.Size = new System.Drawing.Size(194, 22);
+            this.ViewExerciseTwo.Text = "EXERCICIO 2";
+            this.ViewExerciseTwo.Click += new System.EventHandler(this.ViewExerciseTwo_Click);
             // 
-            // eXERCICIO3ToolStripMenuItem
+            // ViewExercise3
             // 
-            this.eXERCICIO3ToolStripMenuItem.Name = "eXERCICIO3ToolStripMenuItem";
-            this.eXERCICIO3ToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
-            this.eXERCICIO3ToolStripMenuItem.Text = "EXERCICIO 3";
+            this.ViewExercise3.Name = "ViewExercise3";
+            this.ViewExercise3.Size = new System.Drawing.Size(194, 22);
+            this.ViewExercise3.Text = "EXERCICIO 3";
+            this.ViewExercise3.Click += new System.EventHandler(this.ViewExercise3_Click);
             // 
             // eXERCICIO4ToolStripMenuItem
             // 
@@ -85,7 +87,7 @@
             this.eXERCICIO4ToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
             this.eXERCICIO4ToolStripMenuItem.Text = "EXERCICIO 4";
             // 
-            // Form1
+            // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -95,8 +97,9 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MainMenuStrip = this.MenuStrip;
             this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "Principal";
             this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Principal";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.MenuStrip.ResumeLayout(false);
@@ -111,8 +114,8 @@
         private System.Windows.Forms.MenuStrip MenuStrip;
         private System.Windows.Forms.ToolStripMenuItem atividadesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ViewExerciseOne;
-        private System.Windows.Forms.ToolStripMenuItem eXERCICIO2ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem eXERCICIO3ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ViewExerciseTwo;
+        private System.Windows.Forms.ToolStripMenuItem ViewExercise3;
         private System.Windows.Forms.ToolStripMenuItem eXERCICIO4ToolStripMenuItem;
     }
 }

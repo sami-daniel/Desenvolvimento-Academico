@@ -4,9 +4,9 @@ using TrabalhoSegundaEtapa.Views;
 
 namespace TrabalhoSegundaEtapa
 {
-    public partial class Form1 : Form
+    public partial class Principal : Form
     {
-        public Form1()
+        public Principal()
         {
             InitializeComponent();
         }
@@ -17,6 +17,19 @@ namespace TrabalhoSegundaEtapa
             this.Hide();
             formExercicio1.Show();
         }
-        
+                
+        private void ViewExerciseTwo_Click(object sender, EventArgs e)
+        {
+            Exercicio2 formExercicio2 = new Exercicio2();
+            this.Hide();
+            formExercicio2.Show();
+        }
+
+        private void ViewExercise3_Click(object sender, EventArgs e)
+        {
+            Exercicio3 formExercicio3 = new Exercicio3();
+            this.Hide();
+            formExercicio3.Show();
+        }
     }
 }

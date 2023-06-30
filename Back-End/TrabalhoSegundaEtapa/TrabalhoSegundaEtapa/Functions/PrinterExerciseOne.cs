@@ -2,7 +2,7 @@
 
 namespace TrabalhoSegundaEtapa.Functions
 {
-    class Code
+    class PrinterExerciseOne
     {
         public static ListBox AddItemsOnListBox(ListBox listBox, byte startIndex, byte endIndex)
         {

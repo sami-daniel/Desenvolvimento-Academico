@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 
 namespace TrabalhoSegundaEtapa.Views
 {
@@ -15,6 +7,16 @@ namespace TrabalhoSegundaEtapa.Views
         public Exercicio2()
         {
             InitializeComponent();
+        }
+
+        private void TxtInput_KeyUp_1(object sender, KeyEventArgs e)
+        {
+            LblOutPut.Text = RdbNormal.Checked ? TxtInput.Text : RdbHipperText.Checked ? TxtInput.Text.ToUpper() : RdbLowerText.Checked ? TxtInput.Text.ToLower() : TxtInput.Text;
+        }
+
+        private void Exercicio2_Load(object sender, System.EventArgs e)
+        {
+            RdbNormal.Checked = true;
         }
     }
 }

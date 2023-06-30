@@ -46,12 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Functions\Code.cs" />
+    <Compile Include="Functions\PrinterExerciseOne.cs" />
     <Compile Include="Views\Exercicio1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Views\Exercicio1.Designer.cs">
       <DependentUpon>Exercicio1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Exercicio2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Exercicio2.Designer.cs">
+      <DependentUpon>Exercicio2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Exercicio3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Exercicio3.Designer.cs">
+      <DependentUpon>Exercicio3.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Principal.cs">
       <SubType>Form</SubType>
@@ -72,6 +84,12 @@
     </Compile>
     <EmbeddedResource Include="Views\Exercicio1.resx">
       <DependentUpon>Exercicio1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Exercicio2.resx">
+      <DependentUpon>Exercicio2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Exercicio3.resx">
+      <DependentUpon>Exercicio3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>

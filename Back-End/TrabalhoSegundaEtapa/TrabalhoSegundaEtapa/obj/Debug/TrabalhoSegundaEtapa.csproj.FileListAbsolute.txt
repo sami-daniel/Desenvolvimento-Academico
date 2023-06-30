@@ -17,8 +17,10 @@ C:\Users\Sami\Projetos\Desenvolvimento-Acadêmico\Back-End\TrabalhoSegundaEtapa\
 C:\Users\Sami\Projetos\Desenvolvimento-Acadêmico\Back-End\TrabalhoSegundaEtapa\TrabalhoSegundaEtapa\obj\Debug\TrabalhoSegundaEtapa.csproj.SuggestedBindingRedirects.cache
 C:\Users\Sami\Projetos\Desenvolvimento-Acadêmico\Back-End\TrabalhoSegundaEtapa\TrabalhoSegundaEtapa\obj\Debug\TrabalhoSegundaEtapa.Properties.Resources.resources
 C:\Users\Sami\Projetos\Desenvolvimento-Acadêmico\Back-End\TrabalhoSegundaEtapa\TrabalhoSegundaEtapa\obj\Debug\TrabalhoSegundaEtapa.Views.Exercicio1.resources
-C:\Users\Sami\Projetos\Desenvolvimento-Acadêmico\Back-End\TrabalhoSegundaEtapa\TrabalhoSegundaEtapa\obj\Debug\TrabalhoSegundaEtapa.Form1.resources
 C:\Users\Sami\Projetos\Desenvolvimento-Acadêmico\Back-End\TrabalhoSegundaEtapa\TrabalhoSegundaEtapa\obj\Debug\TrabalhoSegundaEtapa.csproj.GenerateResource.cache
 C:\Users\Sami\Projetos\Desenvolvimento-Acadêmico\Back-End\TrabalhoSegundaEtapa\TrabalhoSegundaEtapa\obj\Debug\TrabalhoSegundaEtapa.csproj.CoreCompileInputs.cache
 C:\Users\Sami\Projetos\Desenvolvimento-Acadêmico\Back-End\TrabalhoSegundaEtapa\TrabalhoSegundaEtapa\obj\Debug\TrabalhoSegundaEtapa.exe
 C:\Users\Sami\Projetos\Desenvolvimento-Acadêmico\Back-End\TrabalhoSegundaEtapa\TrabalhoSegundaEtapa\obj\Debug\TrabalhoSegundaEtapa.pdb
+C:\Users\Sami\Projetos\Desenvolvimento-Acadêmico\Back-End\TrabalhoSegundaEtapa\TrabalhoSegundaEtapa\obj\Debug\TrabalhoSegundaEtapa.Views.Exercicio2.resources
+C:\Users\Sami\Projetos\Desenvolvimento-Acadêmico\Back-End\TrabalhoSegundaEtapa\TrabalhoSegundaEtapa\obj\Debug\TrabalhoSegundaEtapa.Principal.resources
+C:\Users\Sami\Projetos\Desenvolvimento-Acadêmico\Back-End\TrabalhoSegundaEtapa\TrabalhoSegundaEtapa\obj\Debug\TrabalhoSegundaEtapa.Views.Exercicio3.resources

@@ -15,7 +15,7 @@ namespace TrabalhoSegundaEtapa.Views
         {
             if (CbStartIndex.SelectedIndex != -1 && CbEndIndex.SelectedIndex != -1)
             {
-                Code.AddItemsOnListBox(ListBoxEx1, byte.Parse(CbStartIndex.GetItemText(CbStartIndex.SelectedItem)), byte.Parse(CbEndIndex.GetItemText(CbEndIndex.SelectedItem)));
+                PrinterExerciseOne.AddItemsOnListBox(ListBoxEx1, byte.Parse(CbStartIndex.GetItemText(CbStartIndex.SelectedItem)), byte.Parse(CbEndIndex.GetItemText(CbEndIndex.SelectedItem)));
             }
         }
 
@@ -23,8 +23,15 @@ namespace TrabalhoSegundaEtapa.Views
         {
             if (CbStartIndex.SelectedIndex != -1 && CbEndIndex.SelectedIndex != -1)
             {
-                Code.AddItemsOnListBox(ListBoxEx1, byte.Parse(CbStartIndex.GetItemText(CbStartIndex.SelectedItem)), byte.Parse(CbEndIndex.GetItemText(CbEndIndex.SelectedItem)));
+                PrinterExerciseOne.AddItemsOnListBox(ListBoxEx1, byte.Parse(CbStartIndex.GetItemText(CbStartIndex.SelectedItem)), byte.Parse(CbEndIndex.GetItemText(CbEndIndex.SelectedItem)));
             }
+        }
+
+        private void BtnBackAtPrincPage_Click(object sender, EventArgs e)
+        {
+            Principal formPrincipal = new Principal();
+            formPrincipal.Show();
+            this.Hide();
         }
     }
 }

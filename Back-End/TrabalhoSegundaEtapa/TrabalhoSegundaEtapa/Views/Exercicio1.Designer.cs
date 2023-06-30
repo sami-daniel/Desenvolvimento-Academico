@@ -33,6 +33,7 @@
             this.ListBoxEx1 = new System.Windows.Forms.ListBox();
             this.LblStartIndex = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.BtnBackAtPrincPage = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // CbStartIndex
@@ -108,12 +109,24 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "Indíce de terminó";
             // 
+            // BtnBackAtPrincPage
+            // 
+            this.BtnBackAtPrincPage.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnBackAtPrincPage.Location = new System.Drawing.Point(713, 434);
+            this.BtnBackAtPrincPage.Name = "BtnBackAtPrincPage";
+            this.BtnBackAtPrincPage.Size = new System.Drawing.Size(75, 23);
+            this.BtnBackAtPrincPage.TabIndex = 5;
+            this.BtnBackAtPrincPage.Text = "Voltar";
+            this.BtnBackAtPrincPage.UseVisualStyleBackColor = true;
+            this.BtnBackAtPrincPage.Click += new System.EventHandler(this.BtnBackAtPrincPage_Click);
+            // 
             // Exercicio1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Khaki;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 470);
+            this.Controls.Add(this.BtnBackAtPrincPage);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.LblStartIndex);
             this.Controls.Add(this.ListBoxEx1);
@@ -136,5 +149,6 @@
         private System.Windows.Forms.ListBox ListBoxEx1;
         private System.Windows.Forms.Label LblStartIndex;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button BtnBackAtPrincPage;
     }
 }
