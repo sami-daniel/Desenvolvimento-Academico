@@ -46,6 +46,7 @@
             "4",
             "5",
             "6",
+            "7",
             "8",
             "9",
             "10"});
@@ -53,6 +54,7 @@
             this.CbStartIndex.Name = "CbStartIndex";
             this.CbStartIndex.Size = new System.Drawing.Size(121, 21);
             this.CbStartIndex.TabIndex = 0;
+            this.CbStartIndex.SelectedIndexChanged += new System.EventHandler(this.CbStartIndex_SelectedIndexChanged);
             // 
             // CbEndIndex
             // 
@@ -65,6 +67,7 @@
             "4",
             "5",
             "6",
+            "7",
             "8",
             "9",
             "10"});
@@ -72,6 +75,7 @@
             this.CbEndIndex.Name = "CbEndIndex";
             this.CbEndIndex.Size = new System.Drawing.Size(141, 21);
             this.CbEndIndex.TabIndex = 1;
+            this.CbEndIndex.SelectedIndexChanged += new System.EventHandler(this.CbEndIndex_SelectedIndexChanged);
             // 
             // ListBoxEx1
             // 

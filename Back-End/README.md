@@ -14,7 +14,7 @@ Uso e Acesso ao Código
 O código dos projetos neste repositório é de livre acesso para consulta e estudo por qualquer pessoa interessada no desenvolvimento back-end. Sinta-se à vontade para explorar o código, aprender com ele e adaptá-lo para suas próprias necessidades.
 
 Contato
-Se você tiver alguma dúvida sobre o conteúdo deste repositório ou quiser entrar em contato comigo para discutir qualquer assunto relacionado ao curso ou ao código aqui presente, sinta-se à vontade para enviar um e-mail para seu-email@aqui.com.
+Se você tiver alguma dúvida sobre o conteúdo deste repositório ou quiser entrar em contato comigo para discutir qualquer assunto relacionado ao curso ou ao código aqui presente, sinta-se à vontade para enviar um e-mail para samidaniel125@gmail.com.
 
 Espero que este repositório seja útil para você enquanto aprende e aprimora suas habilidades como desenvolvedor back-end. Divirta-se explorando os projetos e aproveite o aprendizado!
 

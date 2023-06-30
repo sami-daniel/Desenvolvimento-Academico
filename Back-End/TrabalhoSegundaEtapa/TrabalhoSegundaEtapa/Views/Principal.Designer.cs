@@ -39,12 +39,12 @@
             // 
             // MenuStrip
             // 
-            this.MenuStrip.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MenuStrip.Font = new System.Drawing.Font("AntiHero", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.atividadesToolStripMenuItem});
             this.MenuStrip.Location = new System.Drawing.Point(0, 0);
             this.MenuStrip.Name = "MenuStrip";
-            this.MenuStrip.Size = new System.Drawing.Size(800, 28);
+            this.MenuStrip.Size = new System.Drawing.Size(800, 26);
             this.MenuStrip.TabIndex = 0;
             this.MenuStrip.Text = "menuStrip1";
             // 
@@ -57,32 +57,32 @@
             this.eXERCICIO3ToolStripMenuItem,
             this.eXERCICIO4ToolStripMenuItem});
             this.atividadesToolStripMenuItem.Name = "atividadesToolStripMenuItem";
-            this.atividadesToolStripMenuItem.Size = new System.Drawing.Size(116, 24);
+            this.atividadesToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
             this.atividadesToolStripMenuItem.Text = "Atividades";
             // 
             // ViewExerciseOne
             // 
             this.ViewExerciseOne.Name = "ViewExerciseOne";
-            this.ViewExerciseOne.Size = new System.Drawing.Size(180, 24);
+            this.ViewExerciseOne.Size = new System.Drawing.Size(194, 22);
             this.ViewExerciseOne.Text = "EXERCICIO 1";
             this.ViewExerciseOne.Click += new System.EventHandler(this.ViewExerciseOne_Click);
             // 
             // eXERCICIO2ToolStripMenuItem
             // 
             this.eXERCICIO2ToolStripMenuItem.Name = "eXERCICIO2ToolStripMenuItem";
-            this.eXERCICIO2ToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.eXERCICIO2ToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
             this.eXERCICIO2ToolStripMenuItem.Text = "EXERCICIO 2";
             // 
             // eXERCICIO3ToolStripMenuItem
             // 
             this.eXERCICIO3ToolStripMenuItem.Name = "eXERCICIO3ToolStripMenuItem";
-            this.eXERCICIO3ToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.eXERCICIO3ToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
             this.eXERCICIO3ToolStripMenuItem.Text = "EXERCICIO 3";
             // 
             // eXERCICIO4ToolStripMenuItem
             // 
             this.eXERCICIO4ToolStripMenuItem.Name = "eXERCICIO4ToolStripMenuItem";
-            this.eXERCICIO4ToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.eXERCICIO4ToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
             this.eXERCICIO4ToolStripMenuItem.Text = "EXERCICIO 4";
             // 
             // Form1

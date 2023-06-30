@@ -46,7 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Functions\Repeaters.cs" />
+    <Compile Include="Functions\Code.cs" />
     <Compile Include="Views\Exercicio1.cs">
       <SubType>Form</SubType>
     </Compile>
