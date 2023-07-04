@@ -29,9 +29,7 @@ namespace TrabalhoSegundaEtapa.Views
 
         private void BtnBackAtPrincPage_Click(object sender, EventArgs e)
         {
-            Principal formPrincipal = new Principal();
-            formPrincipal.Show();
-            this.Hide();
+            BackAtPrincipalPage.ButtonBackAtPrincipalPage(this);
         }
     }
 }

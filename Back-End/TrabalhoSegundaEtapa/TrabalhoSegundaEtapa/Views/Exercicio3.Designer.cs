@@ -35,6 +35,7 @@
             this.RdbRed = new System.Windows.Forms.RadioButton();
             this.BtnChangeBackColor = new System.Windows.Forms.Button();
             this.BtnColorDialog = new System.Windows.Forms.Button();
+            this.BtnBackAtPrincPage = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // LblOrder
@@ -104,13 +105,24 @@
             // BtnColorDialog
             // 
             this.BtnColorDialog.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnColorDialog.Location = new System.Drawing.Point(316, 377);
+            this.BtnColorDialog.Location = new System.Drawing.Point(269, 377);
             this.BtnColorDialog.Name = "BtnColorDialog";
-            this.BtnColorDialog.Size = new System.Drawing.Size(176, 41);
+            this.BtnColorDialog.Size = new System.Drawing.Size(271, 41);
             this.BtnColorDialog.TabIndex = 8;
-            this.BtnColorDialog.Text = "Seletor de cores";
+            this.BtnColorDialog.Text = "Seletor de cores avulsas";
             this.BtnColorDialog.UseVisualStyleBackColor = true;
             this.BtnColorDialog.Click += new System.EventHandler(this.BtnColorDialog_Click);
+            // 
+            // BtnBackAtPrincPage
+            // 
+            this.BtnBackAtPrincPage.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnBackAtPrincPage.Location = new System.Drawing.Point(733, 395);
+            this.BtnBackAtPrincPage.Name = "BtnBackAtPrincPage";
+            this.BtnBackAtPrincPage.Size = new System.Drawing.Size(75, 23);
+            this.BtnBackAtPrincPage.TabIndex = 9;
+            this.BtnBackAtPrincPage.Text = "Voltar";
+            this.BtnBackAtPrincPage.UseVisualStyleBackColor = true;
+            this.BtnBackAtPrincPage.Click += new System.EventHandler(this.BtnBackAtPrincPage_Click);
             // 
             // Exercicio3
             // 
@@ -118,6 +130,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(820, 450);
+            this.Controls.Add(this.BtnBackAtPrincPage);
             this.Controls.Add(this.BtnColorDialog);
             this.Controls.Add(this.BtnChangeBackColor);
             this.Controls.Add(this.RdbRed);
@@ -144,5 +157,6 @@
         private System.Windows.Forms.RadioButton RdbRed;
         private System.Windows.Forms.Button BtnChangeBackColor;
         private System.Windows.Forms.Button BtnColorDialog;
+        private System.Windows.Forms.Button BtnBackAtPrincPage;
     }
 }

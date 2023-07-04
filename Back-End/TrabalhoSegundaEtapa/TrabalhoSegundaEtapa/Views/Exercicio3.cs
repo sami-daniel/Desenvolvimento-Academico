@@ -21,5 +21,10 @@ namespace TrabalhoSegundaEtapa.Views
             ColorDialog colorDialog = new ColorDialog();
             if (DialogResult.OK == colorDialog.ShowDialog()) BackColor = colorDialog.Color;
         }
+
+        private void BtnBackAtPrincPage_Click(object sender, EventArgs e)
+        {
+            BackAtPrincipalPage.ButtonBackAtPrincipalPage(this);
+        }
     }
 }

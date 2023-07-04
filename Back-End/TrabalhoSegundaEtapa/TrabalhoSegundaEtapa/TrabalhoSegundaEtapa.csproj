@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Functions\PrinterExerciseOne.cs" />
+    <Compile Include="Views\BackAtPrincipalPage.cs" />
     <Compile Include="Views\Exercicio1.cs">
       <SubType>Form</SubType>
     </Compile>

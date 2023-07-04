@@ -35,6 +35,7 @@
             this.RdbHipperText = new System.Windows.Forms.RadioButton();
             this.RdbLowerText = new System.Windows.Forms.RadioButton();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
+            this.BtnBackAtPrincPage = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // TxtInput
@@ -77,6 +78,7 @@
             this.RdbNormal.TabStop = true;
             this.RdbNormal.Text = "Normal";
             this.RdbNormal.UseVisualStyleBackColor = true;
+            this.RdbNormal.CheckedChanged += new System.EventHandler(this.ChekedChanged);
             // 
             // RdbHipperText
             // 
@@ -89,6 +91,7 @@
             this.RdbHipperText.TabStop = true;
             this.RdbHipperText.Text = "Maiúsculo";
             this.RdbHipperText.UseVisualStyleBackColor = true;
+            this.RdbHipperText.CheckedChanged += new System.EventHandler(this.ChekedChanged);
             // 
             // RdbLowerText
             // 
@@ -101,6 +104,18 @@
             this.RdbLowerText.TabStop = true;
             this.RdbLowerText.Text = "Minúsculo";
             this.RdbLowerText.UseVisualStyleBackColor = true;
+            this.RdbLowerText.CheckedChanged += new System.EventHandler(this.ChekedChanged);
+            // 
+            // BtnBackAtPrincPage
+            // 
+            this.BtnBackAtPrincPage.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnBackAtPrincPage.Location = new System.Drawing.Point(16, 372);
+            this.BtnBackAtPrincPage.Name = "BtnBackAtPrincPage";
+            this.BtnBackAtPrincPage.Size = new System.Drawing.Size(75, 23);
+            this.BtnBackAtPrincPage.TabIndex = 6;
+            this.BtnBackAtPrincPage.Text = "Voltar";
+            this.BtnBackAtPrincPage.UseVisualStyleBackColor = true;
+            this.BtnBackAtPrincPage.Click += new System.EventHandler(this.BtnBackAtPrincPage_Click);
             // 
             // Exercicio2
             // 
@@ -108,6 +123,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Khaki;
             this.ClientSize = new System.Drawing.Size(676, 417);
+            this.Controls.Add(this.BtnBackAtPrincPage);
             this.Controls.Add(this.RdbLowerText);
             this.Controls.Add(this.RdbHipperText);
             this.Controls.Add(this.RdbNormal);
@@ -134,5 +150,6 @@
         private System.Windows.Forms.RadioButton RdbHipperText;
         private System.Windows.Forms.RadioButton RdbLowerText;
         private System.Windows.Forms.ColorDialog colorDialog1;
+        private System.Windows.Forms.Button BtnBackAtPrincPage;
     }
 }
