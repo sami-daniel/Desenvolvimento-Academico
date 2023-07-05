@@ -1,12 +1,11 @@
 ﻿using System.Windows.Forms;
+using System.Drawing;
+using TrabalhoSegundaEtapa.Views.Functions;
 
 namespace TrabalhoSegundaEtapa.Views
 {
     public partial class Exercicio2 : Form
     {
-        private bool rdbNormal;
-        private bool rdbUpper;
-        private bool rdbLower;
         public Exercicio2()
         {
             InitializeComponent();
@@ -36,7 +35,12 @@ namespace TrabalhoSegundaEtapa.Views
 
         private void BtnBackAtPrincPage_Click(object sender, System.EventArgs e)
         {
-            BackAtPrincipalPage.ButtonBackAtPrincipalPage(this);
+            Configs.BackAtPrincipalPage(this);
+        }
+
+        private void ChangeBackColor_Click(object sender, System.EventArgs e)
+        {
+            Configs.ChangeBackColorWithColorDialog(this);
         }
     }
 }

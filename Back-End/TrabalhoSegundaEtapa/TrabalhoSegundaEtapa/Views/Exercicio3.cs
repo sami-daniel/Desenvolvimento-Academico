@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
+using TrabalhoSegundaEtapa.Views.Functions;
 
 namespace TrabalhoSegundaEtapa.Views
 {
@@ -13,7 +14,11 @@ namespace TrabalhoSegundaEtapa.Views
 
         private void BtnChangeBackColor_Click(object sender, EventArgs e)
         {
-            this.BackColor = RdbYellow.Checked ? BackColor = Color.Yellow : RdbBlue.Checked ? BackColor = Color.Blue : RdbRed.Checked ? BackColor = Color.Red : BackColor = this.BackColor;
+            this.BackColor = 
+                RdbYellow.Checked ? BackColor = Color.Yellow : 
+                RdbBlue.Checked ? BackColor = Color.Blue :
+                RdbRed.Checked ? BackColor = Color.Red :
+                BackColor = this.BackColor;
         }
 
         private void BtnColorDialog_Click(object sender, EventArgs e)
@@ -24,7 +29,15 @@ namespace TrabalhoSegundaEtapa.Views
 
         private void BtnBackAtPrincPage_Click(object sender, EventArgs e)
         {
-            BackAtPrincipalPage.ButtonBackAtPrincipalPage(this);
+            Configs.BackAtPrincipalPage(this);
+        }
+
+        private void CheckedChanged(object sender, EventArgs e)
+        {
+            BackColor = RdbYellow.Checked? Color.Yellow 
+                : RdbBlue.Checked? Color.Blue 
+                : RdbRed.Checked?  Color.Red 
+                : BackColor;
         }
     }
 }

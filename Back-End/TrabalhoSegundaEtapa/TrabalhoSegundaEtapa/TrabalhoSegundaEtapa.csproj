@@ -46,8 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Functions\PrinterExerciseOne.cs" />
-    <Compile Include="Views\BackAtPrincipalPage.cs" />
+    <Compile Include="Entities\Produto.cs" />
+    <Compile Include="PrintersAndFunctions\Printers.cs" />
+    <Compile Include="Views\Exercicio4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Exercicio4.Designer.cs">
+      <DependentUpon>Exercicio4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Functions\Configs.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Views\Exercicio1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +100,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Exercicio3.resx">
       <DependentUpon>Exercicio3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Exercicio4.resx">
+      <DependentUpon>Exercicio4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>

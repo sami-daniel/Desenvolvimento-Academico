@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 using TrabalhoSegundaEtapa.Functions;
+using TrabalhoSegundaEtapa.Views.Functions;
 
 namespace TrabalhoSegundaEtapa.Views
 {
@@ -29,7 +30,12 @@ namespace TrabalhoSegundaEtapa.Views
 
         private void BtnBackAtPrincPage_Click(object sender, EventArgs e)
         {
-            BackAtPrincipalPage.ButtonBackAtPrincipalPage(this);
+            Configs.BackAtPrincipalPage(this);
+        }
+
+        private void ChangeBackColor_Click(object sender, EventArgs e)
+        {
+            Configs.ChangeBackColorWithColorDialog(this);
         }
     }
 }

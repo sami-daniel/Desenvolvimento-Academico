@@ -34,6 +34,7 @@
             this.LblStartIndex = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.BtnBackAtPrincPage = new System.Windows.Forms.Button();
+            this.ChangeBackColor = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // CbStartIndex
@@ -120,12 +121,24 @@
             this.BtnBackAtPrincPage.UseVisualStyleBackColor = true;
             this.BtnBackAtPrincPage.Click += new System.EventHandler(this.BtnBackAtPrincPage_Click);
             // 
+            // ChangeBackColor
+            // 
+            this.ChangeBackColor.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ChangeBackColor.Location = new System.Drawing.Point(281, 23);
+            this.ChangeBackColor.Name = "ChangeBackColor";
+            this.ChangeBackColor.Size = new System.Drawing.Size(191, 50);
+            this.ChangeBackColor.TabIndex = 6;
+            this.ChangeBackColor.Text = "Mudar cor de fundo";
+            this.ChangeBackColor.UseVisualStyleBackColor = true;
+            this.ChangeBackColor.Click += new System.EventHandler(this.ChangeBackColor_Click);
+            // 
             // Exercicio1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Khaki;
             this.ClientSize = new System.Drawing.Size(800, 470);
+            this.Controls.Add(this.ChangeBackColor);
             this.Controls.Add(this.BtnBackAtPrincPage);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.LblStartIndex);
@@ -150,5 +163,6 @@
         private System.Windows.Forms.Label LblStartIndex;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button BtnBackAtPrincPage;
+        private System.Windows.Forms.Button ChangeBackColor;
     }
 }
