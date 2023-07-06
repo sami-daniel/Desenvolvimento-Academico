@@ -35,6 +35,7 @@
             this.ViewExercise3 = new System.Windows.Forms.ToolStripMenuItem();
             this.ViewExercise4 = new System.Windows.Forms.ToolStripMenuItem();
             this.ChangeBackColor = new System.Windows.Forms.Button();
+            this.desafio4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,7 +57,8 @@
             this.ViewExerciseOne,
             this.ViewExerciseTwo,
             this.ViewExercise3,
-            this.ViewExercise4});
+            this.ViewExercise4,
+            this.desafio4ToolStripMenuItem});
             this.atividadesToolStripMenuItem.Name = "atividadesToolStripMenuItem";
             this.atividadesToolStripMenuItem.Size = new System.Drawing.Size(124, 29);
             this.atividadesToolStripMenuItem.Text = "Atividades";
@@ -101,6 +103,13 @@
             this.ChangeBackColor.UseVisualStyleBackColor = true;
             this.ChangeBackColor.Click += new System.EventHandler(this.ChangeBackColor_Click);
             // 
+            // desafio4ToolStripMenuItem
+            // 
+            this.desafio4ToolStripMenuItem.Name = "desafio4ToolStripMenuItem";
+            this.desafio4ToolStripMenuItem.Size = new System.Drawing.Size(215, 30);
+            this.desafio4ToolStripMenuItem.Text = "DESAFIO 4";
+            this.desafio4ToolStripMenuItem.Click += new System.EventHandler(this.desafio4ToolStripMenuItem_Click);
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -133,6 +142,7 @@
         private System.Windows.Forms.ToolStripMenuItem ViewExercise3;
         private System.Windows.Forms.ToolStripMenuItem ViewExercise4;
         private System.Windows.Forms.Button ChangeBackColor;
+        private System.Windows.Forms.ToolStripMenuItem desafio4ToolStripMenuItem;
     }
 }
 

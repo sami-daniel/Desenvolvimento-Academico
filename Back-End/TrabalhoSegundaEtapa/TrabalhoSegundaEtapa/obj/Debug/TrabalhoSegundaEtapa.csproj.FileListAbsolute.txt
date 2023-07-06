@@ -53,3 +53,6 @@ H:\Compartilhados\Back-End\TrabalhoSegundaEtapa\TrabalhoSegundaEtapa\obj\Debug\T
 H:\Compartilhados\Back-End\TrabalhoSegundaEtapa\TrabalhoSegundaEtapa\obj\Debug\TrabalhoSegundaEtapa.exe
 H:\Compartilhados\Back-End\TrabalhoSegundaEtapa\TrabalhoSegundaEtapa\obj\Debug\TrabalhoSegundaEtapa.pdb
 C:\Users\Sami\Projetos\Desenvolvimento-Academico\Back-End\TrabalhoSegundaEtapa\TrabalhoSegundaEtapa\obj\Debug\TrabalhoSegundaEtapa.Views.Exercicio4.resources
+H:\Compartilhados\Back-End\TrabalhoSegundaEtapa\TrabalhoSegundaEtapa\obj\Debug\TrabalhoSegundaEtapa.Views.Exercicio4.resources
+H:\Compartilhados\Back-End\TrabalhoSegundaEtapa\TrabalhoSegundaEtapa\obj\Debug\TrabalhoSegundaEtapa.Views.Desafio4.resources
+C:\Users\Sami\Projetos\Desenvolvimento-Academico\Back-End\TrabalhoSegundaEtapa\TrabalhoSegundaEtapa\obj\Debug\TrabalhoSegundaEtapa.Views.Desafio4.resources

@@ -44,5 +44,12 @@ namespace TrabalhoSegundaEtapa
         {
             Configs.ChangeBackColorWithColorDialog(this);
         }
+
+        private void desafio4ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Desafio4 desafio4 = new Desafio4();
+            this.Hide();
+            desafio4.Show();
+        }
     }
 }
