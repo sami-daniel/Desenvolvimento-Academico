@@ -34,8 +34,8 @@
             this.ViewExerciseTwo = new System.Windows.Forms.ToolStripMenuItem();
             this.ViewExercise3 = new System.Windows.Forms.ToolStripMenuItem();
             this.ViewExercise4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.ChangeBackColor = new System.Windows.Forms.Button();
             this.desafio4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ChangeBackColor = new System.Windows.Forms.Button();
             this.MenuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -91,6 +91,13 @@
             this.ViewExercise4.Text = "EXERCICIO 4";
             this.ViewExercise4.Click += new System.EventHandler(this.ViewExercise4_Click);
             // 
+            // desafio4ToolStripMenuItem
+            // 
+            this.desafio4ToolStripMenuItem.Name = "desafio4ToolStripMenuItem";
+            this.desafio4ToolStripMenuItem.Size = new System.Drawing.Size(215, 30);
+            this.desafio4ToolStripMenuItem.Text = "DESAFIO 14";
+            this.desafio4ToolStripMenuItem.Click += new System.EventHandler(this.desafio4ToolStripMenuItem_Click);
+            // 
             // ChangeBackColor
             // 
             this.ChangeBackColor.Dock = System.Windows.Forms.DockStyle.Right;
@@ -102,13 +109,6 @@
             this.ChangeBackColor.Text = "Mudar cor de fundo";
             this.ChangeBackColor.UseVisualStyleBackColor = true;
             this.ChangeBackColor.Click += new System.EventHandler(this.ChangeBackColor_Click);
-            // 
-            // desafio4ToolStripMenuItem
-            // 
-            this.desafio4ToolStripMenuItem.Name = "desafio4ToolStripMenuItem";
-            this.desafio4ToolStripMenuItem.Size = new System.Drawing.Size(215, 30);
-            this.desafio4ToolStripMenuItem.Text = "DESAFIO 4";
-            this.desafio4ToolStripMenuItem.Click += new System.EventHandler(this.desafio4ToolStripMenuItem_Click);
             // 
             // Principal
             // 

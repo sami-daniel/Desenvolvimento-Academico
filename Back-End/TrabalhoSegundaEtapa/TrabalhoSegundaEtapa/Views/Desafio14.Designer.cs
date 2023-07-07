@@ -55,7 +55,7 @@
             // 
             this.LblCandidato.AutoSize = true;
             this.LblCandidato.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblCandidato.Location = new System.Drawing.Point(13, 67);
+            this.LblCandidato.Location = new System.Drawing.Point(16, 50);
             this.LblCandidato.Name = "LblCandidato";
             this.LblCandidato.Size = new System.Drawing.Size(99, 22);
             this.LblCandidato.TabIndex = 3;
@@ -75,7 +75,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(17, 225);
+            this.button2.Location = new System.Drawing.Point(155, 225);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(132, 107);
             this.button2.TabIndex = 5;
@@ -97,7 +97,7 @@
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(155, 225);
+            this.button4.Location = new System.Drawing.Point(17, 225);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(132, 107);
             this.button4.TabIndex = 7;
@@ -196,8 +196,8 @@
             // LblEleitoresRestantes
             // 
             this.LblEleitoresRestantes.AutoSize = true;
-            this.LblEleitoresRestantes.Font = new System.Drawing.Font("Microsoft YaHei", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblEleitoresRestantes.Location = new System.Drawing.Point(13, 40);
+            this.LblEleitoresRestantes.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblEleitoresRestantes.Location = new System.Drawing.Point(16, 87);
             this.LblEleitoresRestantes.Name = "LblEleitoresRestantes";
             this.LblEleitoresRestantes.Size = new System.Drawing.Size(164, 22);
             this.LblEleitoresRestantes.TabIndex = 18;
@@ -218,11 +218,11 @@
             // 
             this.LblNumEleitores.AutoSize = true;
             this.LblNumEleitores.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblNumEleitores.Location = new System.Drawing.Point(59, 194);
+            this.LblNumEleitores.Location = new System.Drawing.Point(73, 191);
             this.LblNumEleitores.Name = "LblNumEleitores";
-            this.LblNumEleitores.Size = new System.Drawing.Size(346, 28);
+            this.LblNumEleitores.Size = new System.Drawing.Size(314, 28);
             this.LblNumEleitores.TabIndex = 21;
-            this.LblNumEleitores.Text = "Insira o número de candidatos: ";
+            this.LblNumEleitores.Text = "Insira o número de eleitores ";
             // 
             // BtnPronto
             // 
@@ -238,10 +238,10 @@
             // LblAviso
             // 
             this.LblAviso.AutoSize = true;
-            this.LblAviso.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblAviso.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblAviso.Location = new System.Drawing.Point(74, 239);
             this.LblAviso.Name = "LblAviso";
-            this.LblAviso.Size = new System.Drawing.Size(0, 16);
+            this.LblAviso.Size = new System.Drawing.Size(0, 19);
             this.LblAviso.TabIndex = 23;
             // 
             // TxtNumEleitores

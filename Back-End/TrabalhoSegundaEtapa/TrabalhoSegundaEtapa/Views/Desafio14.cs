@@ -74,7 +74,7 @@ namespace TrabalhoSegundaEtapa.Views
             stringBuilder.Append($"Candidato com mais votos: Candidato {numCandidatoMaisQtdVotos}");
             stringBuilder.AppendLine($". Número de votos {candidatoMaisQtdVotos}");
             stringBuilder.Append($"Candidato com menos votos: Candidato {numCandidatoMenosQtdVotos}");
-            stringBuilder.AppendLine($". Númeor de votos {candidatoMenosQtdVotos}");
+            stringBuilder.AppendLine($". Número de votos {candidatoMenosQtdVotos}");
             stringBuilder.AppendLine();
             stringBuilder.AppendLine($"Total de eleitores: {numVotantesNaoAleatorio}");
             //Monta uma StringBuilder construido aquilo que será mostrado no MessageBox após o encerramento
