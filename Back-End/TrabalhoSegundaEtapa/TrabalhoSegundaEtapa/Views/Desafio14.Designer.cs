@@ -1,6 +1,6 @@
 ﻿namespace TrabalhoSegundaEtapa.Views
 {
-    partial class Desafio4
+    partial class Desafio14
     {
         /// <summary>
         /// Required designer variable.
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Desafio14));
             this.LblCandidato = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -47,6 +48,7 @@
             this.BtnPronto = new System.Windows.Forms.Button();
             this.LblAviso = new System.Windows.Forms.Label();
             this.TxtNumEleitores = new System.Windows.Forms.TextBox();
+            this.LblInstrucao = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // LblCandidato
@@ -250,11 +252,21 @@
             this.TxtNumEleitores.Size = new System.Drawing.Size(341, 35);
             this.TxtNumEleitores.TabIndex = 20;
             // 
-            // Desafio4
+            // LblInstrucao
+            // 
+            this.LblInstrucao.AutoSize = true;
+            this.LblInstrucao.Location = new System.Drawing.Point(194, 9);
+            this.LblInstrucao.Name = "LblInstrucao";
+            this.LblInstrucao.Size = new System.Drawing.Size(252, 78);
+            this.LblInstrucao.TabIndex = 24;
+            this.LblInstrucao.Text = resources.GetString("LblInstrucao.Text");
+            // 
+            // Desafio14
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(458, 577);
+            this.Controls.Add(this.LblInstrucao);
             this.Controls.Add(this.LblAviso);
             this.Controls.Add(this.BtnPronto);
             this.Controls.Add(this.LblNumEleitores);
@@ -275,7 +287,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.LblCandidato);
             this.MinimizeBox = false;
-            this.Name = "Desafio4";
+            this.Name = "Desafio14";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Desafio14";
@@ -305,5 +317,6 @@
         private System.Windows.Forms.Button BtnPronto;
         private System.Windows.Forms.Label LblAviso;
         private System.Windows.Forms.TextBox TxtNumEleitores;
+        private System.Windows.Forms.Label LblInstrucao;
     }
 }

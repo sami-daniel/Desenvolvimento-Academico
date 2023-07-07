@@ -117,4 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="LblInstrucao.Text" xml:space="preserve">
+    <value>Caso marque essa opção, ao clicar em votar, 
+a votação será feita automaticamente. Do contrario 
+o candidato terá de ser selecionado e cada voto 
+terá de ser registrado manualmente, selecionando o
+candidato e clicando em votar.
+
+</value>
+  </data>
 </root>

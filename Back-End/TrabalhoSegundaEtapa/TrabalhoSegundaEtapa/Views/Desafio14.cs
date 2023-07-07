@@ -4,14 +4,14 @@ using System.Windows.Forms;
 
 namespace TrabalhoSegundaEtapa.Views
 {
-    public partial class Desafio4 : Form
+    public partial class Desafio14 : Form
     {
         ulong contadorEleitoreRestantes, numVotantesNaoAleatorio = 0;
         string votoNulo = "Voto Nulo", votoEmBranco = "Voto em Branco";
         int countVotoNuloBranco = 0, candidatoSelecionado = 1;
         int[] candidatoCodTotalVotos = new int[6];
         //Declaração de variaveis
-        public Desafio4()
+        public Desafio14()
         {
             InitializeComponent();
         }
@@ -146,7 +146,7 @@ namespace TrabalhoSegundaEtapa.Views
                 //Caso o seletor de aléatoriedade for verdadeiro ele executa o código acima para realizar a votação automaticamente.
             }
             CkbAleatorio.Visible = false;
-
+            LblInstrucao.Visible = false;
         }
 
         private void BtnPronto_Click(object sender, EventArgs e)

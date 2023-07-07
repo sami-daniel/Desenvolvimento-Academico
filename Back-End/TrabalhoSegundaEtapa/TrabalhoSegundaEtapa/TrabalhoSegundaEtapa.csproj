@@ -48,11 +48,11 @@
   <ItemGroup>
     <Compile Include="Entities\Produto.cs" />
     <Compile Include="PrintersAndFunctions\Printers.cs" />
-    <Compile Include="Views\Desafio4.cs">
+    <Compile Include="Views\Desafio14.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\Desafio4.Designer.cs">
-      <DependentUpon>Desafio4.cs</DependentUpon>
+    <Compile Include="Views\Desafio14.Designer.cs">
+      <DependentUpon>Desafio14.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Exercicio4.cs">
       <SubType>Form</SubType>
@@ -96,8 +96,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Views\Desafio4.resx">
-      <DependentUpon>Desafio4.cs</DependentUpon>
+    <EmbeddedResource Include="Views\Desafio14.resx">
+      <DependentUpon>Desafio14.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Exercicio1.resx">
       <DependentUpon>Exercicio1.cs</DependentUpon>
