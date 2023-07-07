@@ -42,6 +42,11 @@
             this.BtnVote = new System.Windows.Forms.Button();
             this.BtnEncerrar = new System.Windows.Forms.Button();
             this.LblEleitoresRestantes = new System.Windows.Forms.Label();
+            this.CkbAleatorio = new System.Windows.Forms.CheckBox();
+            this.LblNumEleitores = new System.Windows.Forms.Label();
+            this.BtnPronto = new System.Windows.Forms.Button();
+            this.LblAviso = new System.Windows.Forms.Label();
+            this.TxtNumEleitores = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // LblCandidato
@@ -190,17 +195,71 @@
             // 
             this.LblEleitoresRestantes.AutoSize = true;
             this.LblEleitoresRestantes.Font = new System.Drawing.Font("Microsoft YaHei", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblEleitoresRestantes.Location = new System.Drawing.Point(217, 64);
+            this.LblEleitoresRestantes.Location = new System.Drawing.Point(13, 40);
             this.LblEleitoresRestantes.Name = "LblEleitoresRestantes";
-            this.LblEleitoresRestantes.Size = new System.Drawing.Size(283, 22);
+            this.LblEleitoresRestantes.Size = new System.Drawing.Size(164, 22);
             this.LblEleitoresRestantes.TabIndex = 18;
-            this.LblEleitoresRestantes.Text = "Quantidade de eleitores restantes";
+            this.LblEleitoresRestantes.Text = "Eleitores restantes:";
+            // 
+            // CkbAleatorio
+            // 
+            this.CkbAleatorio.AutoSize = true;
+            this.CkbAleatorio.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CkbAleatorio.Location = new System.Drawing.Point(17, 12);
+            this.CkbAleatorio.Name = "CkbAleatorio";
+            this.CkbAleatorio.Size = new System.Drawing.Size(163, 25);
+            this.CkbAleatorio.TabIndex = 19;
+            this.CkbAleatorio.Text = "Votação aleátoria";
+            this.CkbAleatorio.UseVisualStyleBackColor = true;
+            // 
+            // LblNumEleitores
+            // 
+            this.LblNumEleitores.AutoSize = true;
+            this.LblNumEleitores.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblNumEleitores.Location = new System.Drawing.Point(59, 194);
+            this.LblNumEleitores.Name = "LblNumEleitores";
+            this.LblNumEleitores.Size = new System.Drawing.Size(346, 28);
+            this.LblNumEleitores.TabIndex = 21;
+            this.LblNumEleitores.Text = "Insira o número de candidatos: ";
+            // 
+            // BtnPronto
+            // 
+            this.BtnPronto.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnPronto.Location = new System.Drawing.Point(181, 338);
+            this.BtnPronto.Name = "BtnPronto";
+            this.BtnPronto.Size = new System.Drawing.Size(106, 42);
+            this.BtnPronto.TabIndex = 22;
+            this.BtnPronto.Text = "PRONTO";
+            this.BtnPronto.UseVisualStyleBackColor = true;
+            this.BtnPronto.Click += new System.EventHandler(this.BtnPronto_Click);
+            // 
+            // LblAviso
+            // 
+            this.LblAviso.AutoSize = true;
+            this.LblAviso.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblAviso.Location = new System.Drawing.Point(74, 239);
+            this.LblAviso.Name = "LblAviso";
+            this.LblAviso.Size = new System.Drawing.Size(0, 16);
+            this.LblAviso.TabIndex = 23;
+            // 
+            // TxtNumEleitores
+            // 
+            this.TxtNumEleitores.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtNumEleitores.Location = new System.Drawing.Point(64, 297);
+            this.TxtNumEleitores.Name = "TxtNumEleitores";
+            this.TxtNumEleitores.Size = new System.Drawing.Size(341, 35);
+            this.TxtNumEleitores.TabIndex = 20;
             // 
             // Desafio4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(458, 577);
+            this.Controls.Add(this.LblAviso);
+            this.Controls.Add(this.BtnPronto);
+            this.Controls.Add(this.LblNumEleitores);
+            this.Controls.Add(this.TxtNumEleitores);
+            this.Controls.Add(this.CkbAleatorio);
             this.Controls.Add(this.LblEleitoresRestantes);
             this.Controls.Add(this.BtnEncerrar);
             this.Controls.Add(this.BtnVote);
@@ -241,5 +300,10 @@
         private System.Windows.Forms.Button BtnVote;
         private System.Windows.Forms.Button BtnEncerrar;
         private System.Windows.Forms.Label LblEleitoresRestantes;
+        private System.Windows.Forms.CheckBox CkbAleatorio;
+        private System.Windows.Forms.Label LblNumEleitores;
+        private System.Windows.Forms.Button BtnPronto;
+        private System.Windows.Forms.Label LblAviso;
+        private System.Windows.Forms.TextBox TxtNumEleitores;
     }
 }

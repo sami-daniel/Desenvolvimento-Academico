@@ -60,9 +60,7 @@
     <Compile Include="Views\Exercicio4.Designer.cs">
       <DependentUpon>Exercicio4.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Functions\Configs.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Views\Functions\Configs.cs" />
     <Compile Include="Views\Exercicio1.cs">
       <SubType>Form</SubType>
     </Compile>

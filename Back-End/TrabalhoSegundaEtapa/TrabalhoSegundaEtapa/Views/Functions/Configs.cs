@@ -4,7 +4,7 @@ using System;
 
 namespace TrabalhoSegundaEtapa.Views.Functions
 {
-    internal class Configs : Form
+    internal class Configs 
     {
         internal static void BackAtPrincipalPage(Form actualForm)
         {
