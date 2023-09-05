@@ -1,0 +1,349 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'JosefinSans-Regular';
+}
+@font-face {
+    font-family: 'JosefinSans-Regular';
+    src: url(Assets/Fonts/JosefinSans-Regular.ttf);
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+body {
+    background-color: #000;
+}
+
+#bar-top {
+    width: 100%;
+    text-align: center;
+    background-color: #000;
+    height: 13vh;
+    color: rgb(107, 107, 107);
+    vertical-align: middle;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    align-self: center;
+    color: white;
+}
+
+#pages {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+#pages li {
+    margin-left: 2.5vw;
+    color: rgb(107, 107, 107);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#pages li:hover {
+    color: rgb(32, 182, 88);
+    transition: 0.5s;
+}
+#pages li:hover #svg-galeri{
+    stroke: rgb(32, 182, 88);
+    transition: 0.5s;
+}
+
+#pages li:not(:hover) {
+    transition: 0.5s;
+}
+#dropdown-list{
+    position: relative;
+}
+#dropdown-menu{
+    opacity: 0;
+    border-top: 2px rgb(32, 182, 88) solid;
+    z-index: -10;
+    position: absolute;
+    background-color: white;
+    width: 400%;
+    list-style: none;
+    transition: 0.5s;
+}
+#dropdown-menu li{
+    text-align: start;  
+    margin-top: 1.8vh;
+    color: black !important;
+    margin-bottom: 1.8vh;
+    font-size: 1rem;
+    cursor: pointer;
+}
+#dropdown-list:hover > #dropdown-menu{
+    opacity: 1;
+    z-index: 10;
+    transition: 0.5s ;
+}
+#sub-menu{
+    position: absolute; left: 100%;
+    list-style: none;
+    background-color: white;
+    border-top: 2px rgb(32, 182, 88) solid;
+    width: 100%;
+    z-index: -10;
+    opacity: 0;
+    transition: 0.5s ;
+    margin-top: -3vh;
+}
+#sub-menu li{
+    text-align: start;
+    margin: 0 ;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    margin-left: 1vw;
+}
+#hover-menu-sub-menu:hover #sub-menu{
+    opacity: 1;
+    z-index: 10;
+    font-size: 1rem;
+}
+#insta {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+#insta li {
+    margin-left: 2.5vh;
+}
+
+#insta li:hover {
+    fill: white;
+}
+
+#seção-apresentacao-item-pagina {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    margin-bottom: 5vh;
+    overflow: hidden;
+}
+
+.nav:hover .img-portifolio-div {
+    filter: grayscale(0);
+    transform: scale(1.05);
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.nav:not(:hover) .img-portifolio-div {
+    transition: 1s;
+}
+
+.img-portifolio-div {
+    width: 95%;
+    filter: grayscale(1);
+    overflow: hidden;
+}
+
+.img-info {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+.img-info h2 {
+    margin-bottom: 16px;
+    color: white;
+    font-size: 2em;
+    pointer-events: none;
+}
+
+.img-info a {
+    font-size: 11px;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    padding: 0.5rem 3em 0.5rem 3em;
+}
+
+.img-info a:hover {
+    background-color: white;
+    color: #000;
+    transition: 0.5s;
+}
+
+.img-info a:not(:hover) {
+    transition: 0.5s;
+}
+
+#footer-principal-page {
+    display: flex;
+    width: 100%;
+    height: 7.5vh;
+    justify-content: center;
+    align-items: flex-start;
+    color: rgb(107, 107, 107);
+}
+
+/*Pagina inicial*/
+#title-page {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 6.5vh;
+}
+
+#seção-apresentacao-item-pagina {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav-services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    align-items: center;
+    width: 32%;
+    background-color: #262626;
+    padding: 3rem;
+}
+
+.n1 {
+    margin-bottom: 5vh;
+}
+
+.nav-services h4 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 2vh;
+}
+
+.nav-services p {
+    font-size: 16px;
+    margin-bottom: 2vh;
+}
+
+.nav-services h3 {
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(32, 182, 88);
+    margin-bottom: 2vh;
+}
+
+.nav-services:hover svg {
+    transform: scale(1.25);
+    transition: 0.5s;
+}
+
+.nav-services:not(:hover) svg {
+    transition: 0.5s;
+}
+
+.img2 {
+    width: 35% !important;
+}
+
+.a3v1A10 {
+    display: flex;
+    margin-left: 1vw;
+    justify-content: space-between;
+}
+
+.img2:hover{
+    transform: scale(1.02);
+    filter: grayscale(0);
+    transition: 0.5s;
+}
+
+.img2:not(:hover){
+    transition: 0.5s;
+}
+
+.aTx3198 {
+    margin-right: 1vw;
+}
+
+.MoIss1on {
+    display: flex;
+    flex-direction: row;
+}
+
+#produters {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div-img>p{
+    color: #272727;
+    margin-top: -8vh;
+}
+.Sa12Rt{
+    scale: 0.55;
+    border-radius: 100%;
+}
+
+.Sa12Rt:hover{
+    filter: grayscale(0);
+    transform: scale(1.01);
+    transition: 0.20s;
+}
+.Sa12Rt:not(:hover){
+    transition: 0.2s;
+}
+.iulLI35ulSD > ul li{
+    display: inline-block;
+    margin-left: 1.5vw;
+}
+.iulLI35ulSD{
+    margin-top: 4vh;
+}
+.format-hover-colorlib{
+    color:rgb(32, 182, 88) !important;
+}
+.hover-rgb-to-dark:hover{
+    transition: 0.3s;
+    color: rgb(5, 120, 30) !important;
+    fill: rgb(5, 120, 30) !important;
+}
+.hover-rgb-to-dark:not(:hover){
+    transition: 0.3s;
+}
+.format-svg-people-midias{
+    fill: rgb(32, 182, 88);
+    stroke: black;
+}
+.white-hover-from-icons-header:hover{
+    fill: white !important;
+    transition: 0.2s;
+}
+.white-hover-from-icons-header:not(:hover){
+    
+    transition: 0.2s;
+}
+.format-svg-people-midias{
+    cursor: pointer;
+}
+
+#seção-apresentacao-item-pagina > nav p{
+    text-align: center;
+    color: white;
+}
